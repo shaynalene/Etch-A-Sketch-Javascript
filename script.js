@@ -15,3 +15,13 @@ for (var i = 0; i < 16; i++) {
     squareDivCtr.appendChild(squareDiv);
   }
 }
+
+const squares = document.querySelectorAll("#sqdiv");
+
+squares.forEach((element) => {
+  element.addEventListener("mouseover", function (e) {
+    e.target.style.background = "blue";
+  });
+});
+{
+}
